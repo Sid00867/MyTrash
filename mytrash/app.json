@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "MyTrash",
+    "slug": "MyTrash",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/applogo.png",
+    "userInterfaceStyle": "light",
+    "scheme": "mytrash",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/logobw.png"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "notification": {
+      "icon": "./assets/applogo.png"
+    },
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#011F45"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.projecty.mytrash",
+      "versionCode": 1,
+      "newArchEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "845fc6b8-d186-41bf-8245-19b21b50794b"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/845fc6b8-d186-41bf-8245-19b21b50794b"
+    }
+  }
+}
